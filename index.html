@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klasemen Sepak Bola Sederhana</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      Skema Indonesia <br />
+      Langsung Lolos Piala Dunia 2026 <br />
+    </h1>
+    <p>*Peringkat 1 dan 2 Otomatis Lolos Piala Dunia 2026</p>
+    <p>*Peringkat 3 dan 4 Lanjut Round 4</p>
+    <p>*Peringkat 5 dan 6 Lanjut Turu</p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Persentase</th>
+            <th>Negara</th>
+            <th>Main</th>
+            <th>Menang</th>
+            <th>Imbang</th>
+            <th>Kalah</th>
+            <th>Gol Masuk</th>
+            <th>Gol Kemasukan</th>
+            <th>Gol Selisih</th>
+            <th>Poin</th>
+          </tr>
+        </thead>
+        <tbody id="input-klasemen">
+          <tr>
+            <td class="probability">0%</td>
+            <td>INDONESIA</td>
+            <td class="matches">0</td>
+            <td><input type="number" value="0" min="0" max="10" class="win-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="draw-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="lose-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-for-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-against-input" /></td>
+            <td class="goal-difference">0</td>
+            <td class="points">0</td>
+          </tr>
+          <tr>
+            <td class="probability">0%</td>
+            <td>AUSTRALIA</td>
+            <td class="matches">0</td>
+            <td><input type="number" value="0" min="0" max="10" class="win-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="draw-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="lose-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-for-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-against-input" /></td>
+            <td class="goal-difference">0</td>
+            <td class="points">0</td>
+          </tr>
+          <tr>
+            <td class="probability">0%</td>
+            <td>ARAB SAUDI</td>
+            <td class="matches">0</td>
+            <td><input type="number" value="0" min="0" max="10" class="win-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="draw-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="lose-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-for-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-against-input" /></td>
+            <td class="goal-difference">0</td>
+            <td class="points">0</td>
+          </tr>
+          <tr>
+            <td class="probability">0%</td>
+            <td>CHINA</td>
+            <td class="matches">0</td>
+            <td><input type="number" value="0" min="0" max="10" class="win-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="draw-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="lose-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-for-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-against-input" /></td>
+            <td class="goal-difference">0</td>
+            <td class="points">0</td>
+          </tr>
+          <tr>
+            <td class="probability">0%</td>
+            <td>JEPANG</td>
+            <td class="matches">0</td>
+            <td><input type="number" value="0" min="0" max="10" class="win-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="draw-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="lose-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-for-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-against-input" /></td>
+            <td class="goal-difference">0</td>
+            <td class="points">0</td>
+          </tr>
+          <tr>
+            <td class="probability">0%</td>
+            <td>BAHRAIN</td>
+            <td class="matches">0</td>
+            <td><input type="number" value="0" min="0" max="10" class="win-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="draw-input" /></td>
+            <td><input type="number" value="0" min="0" max="10" class="lose-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-for-input" /></td>
+            <td><input type="number" value="0" min="0" class="goals-against-input" /></td>
+            <td class="goal-difference">0</td>
+            <td class="points">0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Hasil Data dan Reset Data -->
+    <div class="button-container">
+      <button id="calculate-btn">Hitung Poin</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <br />
+    <p>Created by ARI WIJAYANTO with AI</p>
+  </footer>
+</html>
